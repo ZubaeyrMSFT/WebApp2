@@ -28,7 +28,7 @@ namespace WebAPI.Controllers
         [Route("/")]
         public String getWelcomeMessage()
         {
-            Console.WriteLine("ZBXXX : home path!");
+            _logger.LogDebug("ZBXXX : home path!");
             return "Welcome to WebApp 1.0";
         }
 
