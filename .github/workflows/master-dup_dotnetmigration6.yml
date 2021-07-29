@@ -53,5 +53,5 @@ jobs:
       with:
         app-name: 'dotnetmigration6'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_1ad1cfeb81ed4df4801ee247f3c11254 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_8b51512dd4714307a09a506154d5f68e }}
         package: .
